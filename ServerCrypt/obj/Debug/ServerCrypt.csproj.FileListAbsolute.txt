@@ -1,0 +1,10 @@
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\bin\Debug\ServerCrypt.exe.config
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\bin\Debug\ServerCrypt.exe
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\bin\Debug\ServerCrypt.pdb
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.Form1.resources
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.Properties.Resources.resources
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.csproj.GenerateResource.cache
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.csproj.CoreCompileInputs.cache
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.exe
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.pdb
+C:\Users\Wadi\source\repos\ServerCrypt\ServerCrypt\obj\Debug\ServerCrypt.csprojAssemblyReference.cache

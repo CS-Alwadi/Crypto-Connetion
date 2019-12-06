@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCrypt", "ServerCrypt\ServerCrypt.csproj", "{EE0500C2-31D7-4C75-889B-934C406C6621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCrypto", "ClientCrypto\ClientCrypto.csproj", "{0BD646FF-4210-49BD-9EB0-C56320E0BBB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0500C2-31D7-4C75-889B-934C406C6621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0500C2-31D7-4C75-889B-934C406C6621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0500C2-31D7-4C75-889B-934C406C6621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0500C2-31D7-4C75-889B-934C406C6621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD646FF-4210-49BD-9EB0-C56320E0BBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD646FF-4210-49BD-9EB0-C56320E0BBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD646FF-4210-49BD-9EB0-C56320E0BBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD646FF-4210-49BD-9EB0-C56320E0BBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C350BE84-4F1F-47B5-9FF1-F00E2C2A5CF4}
+	EndGlobalSection
+EndGlobal

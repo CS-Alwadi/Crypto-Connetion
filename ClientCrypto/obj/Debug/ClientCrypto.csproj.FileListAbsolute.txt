@@ -1,0 +1,10 @@
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\bin\Debug\ClientCrypto.exe.config
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\bin\Debug\ClientCrypto.exe
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\bin\Debug\ClientCrypto.pdb
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.Form1.resources
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.Properties.Resources.resources
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.csproj.GenerateResource.cache
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.csproj.CoreCompileInputs.cache
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.exe
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.pdb
+C:\Users\Wadi\source\repos\ServerCrypt\ClientCrypto\obj\Debug\ClientCrypto.csprojAssemblyReference.cache
