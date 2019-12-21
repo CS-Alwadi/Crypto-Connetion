@@ -34,10 +34,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.ThreadIDLable = new System.Windows.Forms.Label();
+            this.ClientPKLable = new System.Windows.Forms.Label();
+            this.ClientPubKeyText = new System.Windows.Forms.TextBox();
+            this.ClientHashTextBox = new System.Windows.Forms.TextBox();
+            this.ClientHashLable = new System.Windows.Forms.Label();
+            this.DecryptedMSGTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pubKeyText = new System.Windows.Forms.TextBox();
-            this.HashTextBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // InMSG
@@ -94,39 +96,57 @@
             this.ThreadIDLable.TabIndex = 6;
             this.ThreadIDLable.Text = "Thread ID";
             // 
+            // ClientPKLable
+            // 
+            this.ClientPKLable.AutoSize = true;
+            this.ClientPKLable.Location = new System.Drawing.Point(198, 48);
+            this.ClientPKLable.Name = "ClientPKLable";
+            this.ClientPKLable.Size = new System.Drawing.Size(113, 17);
+            this.ClientPKLable.TabIndex = 7;
+            this.ClientPKLable.Text = "Client Public Key";
+            // 
+            // ClientPubKeyText
+            // 
+            this.ClientPubKeyText.Location = new System.Drawing.Point(12, 68);
+            this.ClientPubKeyText.Multiline = true;
+            this.ClientPubKeyText.Name = "ClientPubKeyText";
+            this.ClientPubKeyText.Size = new System.Drawing.Size(439, 121);
+            this.ClientPubKeyText.TabIndex = 11;
+            // 
+            // ClientHashTextBox
+            // 
+            this.ClientHashTextBox.Location = new System.Drawing.Point(12, 233);
+            this.ClientHashTextBox.Multiline = true;
+            this.ClientHashTextBox.Name = "ClientHashTextBox";
+            this.ClientHashTextBox.Size = new System.Drawing.Size(439, 102);
+            this.ClientHashTextBox.TabIndex = 12;
+            // 
+            // ClientHashLable
+            // 
+            this.ClientHashLable.AutoSize = true;
+            this.ClientHashLable.Location = new System.Drawing.Point(207, 203);
+            this.ClientHashLable.Name = "ClientHashLable";
+            this.ClientHashLable.Size = new System.Drawing.Size(118, 17);
+            this.ClientHashLable.TabIndex = 13;
+            this.ClientHashLable.Text = "Client Hash value";
+            // 
+            // DecryptedMSGTextBox
+            // 
+            this.DecryptedMSGTextBox.Location = new System.Drawing.Point(490, 68);
+            this.DecryptedMSGTextBox.Multiline = true;
+            this.DecryptedMSGTextBox.Name = "DecryptedMSGTextBox";
+            this.DecryptedMSGTextBox.Size = new System.Drawing.Size(300, 300);
+            this.DecryptedMSGTextBox.TabIndex = 14;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(198, 48);
+            this.label2.Location = new System.Drawing.Point(585, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "PublicKey";
-            // 
-            // pubKeyText
-            // 
-            this.pubKeyText.Location = new System.Drawing.Point(12, 68);
-            this.pubKeyText.Multiline = true;
-            this.pubKeyText.Name = "pubKeyText";
-            this.pubKeyText.Size = new System.Drawing.Size(439, 121);
-            this.pubKeyText.TabIndex = 11;
-            // 
-            // HashTextBox
-            // 
-            this.HashTextBox.Location = new System.Drawing.Point(12, 233);
-            this.HashTextBox.Multiline = true;
-            this.HashTextBox.Name = "HashTextBox";
-            this.HashTextBox.Size = new System.Drawing.Size(439, 102);
-            this.HashTextBox.TabIndex = 12;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(207, 203);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 17);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Hash value";
+            this.label2.Size = new System.Drawing.Size(108, 17);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Decrypted MSG";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
@@ -134,10 +154,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.HashTextBox);
-            this.Controls.Add(this.pubKeyText);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.DecryptedMSGTextBox);
+            this.Controls.Add(this.ClientHashLable);
+            this.Controls.Add(this.ClientHashTextBox);
+            this.Controls.Add(this.ClientPubKeyText);
+            this.Controls.Add(this.ClientPKLable);
             this.Controls.Add(this.ThreadIDLable);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -159,10 +181,12 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label ThreadIDLable;
         private System.Windows.Forms.TextBox InMSG;
+        private System.Windows.Forms.Label ClientPKLable;
+        private System.Windows.Forms.TextBox ClientPubKeyText;
+        private System.Windows.Forms.TextBox ClientHashTextBox;
+        private System.Windows.Forms.Label ClientHashLable;
+        private System.Windows.Forms.TextBox DecryptedMSGTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox pubKeyText;
-        private System.Windows.Forms.TextBox HashTextBox;
-        private System.Windows.Forms.Label label3;
     }
 }
 
